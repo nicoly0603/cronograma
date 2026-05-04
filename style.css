@@ -2,9 +2,9 @@
 
 :root {
   --cor-de-fundo: #1e1e1e;
-  --verde: #6fff57;
-  --branco: #ffffff;
-  --botao-ativo: #3a375e;
+  --roxo: #92118f;
+  --branco: #f9f5f9;
+  --botao-ativo: #c959e8;
   --botao-inativo: rgba(58, 55, 94, 0.5);
   --texto-fundo: rgba(58, 55, 94, 0.3);
 }
@@ -57,6 +57,11 @@ body {
 
 .botoes {
   display: block;
+}
+
+.ativo{
+  background-color: var(--botao-ativo);
+  border-bottom: 4px solid var(--roxo);
 }
 
 @media screen and (min-width: 768px) {
